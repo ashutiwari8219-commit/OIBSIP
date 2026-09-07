@@ -1,0 +1,24 @@
+# House Price Prediction — Linear Regression
+
+## Objective
+Built and evaluated a Linear Regression model to predict house sale prices 
+based on numeric property features.
+
+## Dataset
+Ames Housing Dataset (Kaggle — House Prices: Advanced Regression Techniques)
+
+## Tools Used
+Python, pandas, scikit-learn, matplotlib, seaborn, Jupyter Notebook (VS Code)
+
+## Approach
+- Explored SalePrice distribution and missing values
+- Selected numeric features, imputed missing values with median
+- Trained/test split (80/20), trained Linear Regression model
+- Evaluated using MSE, RMSE, R² score
+- Analyzed residuals and feature coefficients
+
+## Results
+- RMSE: $36,879.82
+- R² Score: 0.8227
+- Top positive price drivers: [paste from Cell 11]
+- Top negative price drivers: [paste from Cell 11]
